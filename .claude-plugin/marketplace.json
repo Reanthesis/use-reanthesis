@@ -1,5 +1,8 @@
 {
   "name": "reanthesis",
+  "metadata": {
+    "description": "Reanthesis plugins: flashcard tools and skills for AI coding agents."
+  },
   "owner": {
     "name": "Reanthesis",
     "url": "https://reanthesis.com"

@@ -1,7 +1,7 @@
 # use-reanthesis
 
-Connect your AI to [Reanthesis](https://reanthesis.com), the spaced-repetition
-study app where remembering makes things grow.
+Connect your AI to [Reanthesis](https://reanthesis.com), spaced repetition
+for serious exams.
 
 Your AI reads your lecture notes, drafts sharp flashcards, and files them into
 your decks through the hosted MCP server at `https://reanthesis.com/mcp`. You
@@ -40,8 +40,8 @@ uses the same two `/plugin` commands as Claude Code.
 
 ## The skill
 
-[`skills/reanthesis`](skills/reanthesis/SKILL.md) teaches an AI to be a good
-deck gardener before it touches a tool: read the whole source, check what
+[`skills/reanthesis`](skills/reanthesis/SKILL.md) teaches an AI the craft
+before it touches a tool: read the whole source, check what
 already exists, propose the batch, then create. Two focused references cover
 the craft — [creating cards](skills/reanthesis/references/creating-cards.md)
 and [waking dormant cards](skills/reanthesis/references/waking-dormant-cards.md),

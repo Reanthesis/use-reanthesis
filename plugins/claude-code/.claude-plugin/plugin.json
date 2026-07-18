@@ -1,0 +1,27 @@
+{
+  "name": "reanthesis",
+  "displayName": "Reanthesis",
+  "description": "Build and manage Reanthesis flashcards from your notes with your AI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Reanthesis",
+    "url": "https://reanthesis.com"
+  },
+  "homepage": "https://reanthesis.com",
+  "repository": "https://github.com/Reanthesis/use-reanthesis",
+  "license": "Apache-2.0",
+  "category": "Education",
+  "keywords": [
+    "flashcards",
+    "spaced-repetition",
+    "fsrs",
+    "mcp",
+    "agent-skills",
+    "anki-alternative",
+    "claude",
+    "chatgpt",
+    "copilot",
+    "study",
+    "mcat"
+  ]
+}

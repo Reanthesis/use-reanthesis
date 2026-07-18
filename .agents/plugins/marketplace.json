@@ -1,0 +1,11 @@
+{
+  "name": "reanthesis",
+  "plugins": [
+    {
+      "name": "reanthesis",
+      "source": { "source": "local", "path": "./plugins/codex" },
+      "description": "Let your AI build and tend your Reanthesis flashcards.",
+      "category": "Education"
+    }
+  ]
+}

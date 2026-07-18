@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reanthesis": {
+      "type": "http",
+      "url": "https://reanthesis.com/mcp"
+    }
+  }
+}

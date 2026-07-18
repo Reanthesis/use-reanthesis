@@ -1,0 +1,30 @@
+{
+  "name": "reanthesis",
+  "owner": {
+    "name": "Reanthesis",
+    "url": "https://reanthesis.com"
+  },
+  "plugins": [
+    {
+      "name": "reanthesis",
+      "source": "./plugins/copilot",
+      "displayName": "Reanthesis",
+      "description": "Build and manage Reanthesis flashcards from your notes with your AI.",
+      "homepage": "https://reanthesis.com",
+      "category": "Education",
+      "keywords": [
+        "flashcards",
+        "spaced-repetition",
+        "fsrs",
+        "mcp",
+        "agent-skills",
+        "anki-alternative",
+        "claude",
+        "chatgpt",
+        "copilot",
+        "study",
+        "mcat"
+      ]
+    }
+  ]
+}

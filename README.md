@@ -41,14 +41,25 @@ first tool call opens its OAuth connection. If Reanthesis was already
 installed, update or reinstall the plugin so it picks up the connector
 declaration. Copilot CLI uses the same two `/plugin` commands as Claude Code.
 
+### Plugins in use
+
+Claude plugin in use:
+
+![Claude plugin in use](docs/assets/reanthesis-claude-plugin.jpg)
+
+Codex plugin in use:
+
+![Codex plugin in use](docs/assets/reanthesis-codex-plugin.png)
+
 ## The skill
 
 [`skills/reanthesis`](skills/reanthesis/SKILL.md) teaches an AI the craft
 before it touches a tool: read the whole source, check what
-already exists, propose the batch, then create. Two focused references cover
-the craft — [creating cards](skills/reanthesis/references/creating-cards.md)
-and [waking dormant cards](skills/reanthesis/references/waking-dormant-cards.md),
-the loop that keeps a growing collection studyable. Hosted clients without
+already exists, propose the batch, then create. Focused references cover the
+craft: [creating cards](skills/reanthesis/references/creating-cards.md),
+[waking dormant cards](skills/reanthesis/references/waking-dormant-cards.md),
+and [turning AI work into cards](skills/reanthesis/references/turning-ai-work-into-cards.md).
+The waking-card loop keeps a growing collection studyable. Hosted clients without
 skills (claude.ai, ChatGPT) receive the same guidance from the server itself
 at connection time.
 

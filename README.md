@@ -51,6 +51,8 @@ Codex plugin in use:
 
 ![Codex plugin in use](docs/assets/reanthesis-codex-plugin.png)
 
+See Reanthesis in ChatGPT: [watch the plugin demo](https://reanthesis.com/demos/chatgpt-plugin-demo.mp4).
+
 ## The skill
 
 [`skills/reanthesis`](skills/reanthesis/SKILL.md) teaches an AI the craft

@@ -56,10 +56,10 @@ Codex plugin in use:
 [`skills/reanthesis`](skills/reanthesis/SKILL.md) teaches an AI the craft
 before it touches a tool: read the whole source, check what
 already exists, propose the batch, then create. Focused references cover the
-craft — [creating cards](skills/reanthesis/references/creating-cards.md),
+craft: [creating cards](skills/reanthesis/references/creating-cards.md),
 [waking dormant cards](skills/reanthesis/references/waking-dormant-cards.md),
-and [turning AI work into cards](skills/reanthesis/references/turning-ai-work-into-cards.md),
-the loop that keeps a growing collection studyable. Hosted clients without
+and [turning AI work into cards](skills/reanthesis/references/turning-ai-work-into-cards.md).
+The waking-card loop keeps a growing collection studyable. Hosted clients without
 skills (claude.ai, ChatGPT) receive the same guidance from the server itself
 at connection time.
 

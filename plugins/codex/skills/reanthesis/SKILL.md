@@ -29,6 +29,8 @@ at `https://reanthesis.com/mcp`.
 - Reading the collection and waking or resting dormant cards, the loop that
   keeps a growing collection studyable:
   [references/waking-dormant-cards.md](references/waking-dormant-cards.md)
+- Turning durable lessons from AI-assisted work into cards:
+  [references/turning-ai-work-into-cards.md](references/turning-ai-work-into-cards.md)
 
 ## Hard rules
 

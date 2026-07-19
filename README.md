@@ -34,9 +34,12 @@ Claude Code:
 /plugin install reanthesis@reanthesis
 ```
 
-Codex CLI: `codex plugin marketplace add Reanthesis/use-reanthesis`, then
-`codex plugin add reanthesis@reanthesis` and start a new thread. Copilot CLI
-uses the same two `/plugin` commands as Claude Code.
+Codex CLI and the Codex desktop app: `codex plugin marketplace add
+Reanthesis/use-reanthesis`, then `codex plugin add reanthesis@reanthesis` and
+start a new thread. The Codex plugin includes the hosted MCP connector; the
+first tool call opens its OAuth connection. If Reanthesis was already
+installed, update or reinstall the plugin so it picks up the connector
+declaration. Copilot CLI uses the same two `/plugin` commands as Claude Code.
 
 ## The skill
 

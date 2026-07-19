@@ -11,6 +11,7 @@ import sys
 root = pathlib.Path(sys.argv[1])
 source = root / "skills" / "reanthesis"
 codex = root / "plugins" / "codex" / "skills" / "reanthesis"
+codex_plugin = root / "plugins" / "codex"
 copilot = root / "plugins" / "copilot" / "skills" / "reanthesis"
 claude_skills = root / "plugins" / "claude-code" / "skills"
 
@@ -44,6 +45,23 @@ for doc in [root / "README.md", *sorted((root / "docs").glob("*.md")), *source.r
 assert codex.is_dir() and not codex.is_symlink(), (
     "Codex plugin skill must be a real directory"
 )
+codex_manifest = json.loads(
+    (codex_plugin / ".codex-plugin" / "plugin.json").read_text()
+)
+assert codex_manifest["version"] == "1.0.1", "Codex plugin version was not bumped"
+assert codex_manifest["mcpServers"] == "./.mcp.json", (
+    "Codex plugin must declare its bundled MCP server"
+)
+codex_mcp = json.loads((codex_plugin / ".mcp.json").read_text())
+assert codex_mcp == {
+    "mcpServers": {
+        "reanthesis": {
+            "type": "http",
+            "url": "https://reanthesis.com/mcp",
+            "oauth_resource": "https://reanthesis.com/mcp",
+        }
+    }
+}, "Codex plugin MCP config drifted"
 
 def files(path: pathlib.Path) -> dict[str, bytes]:
     return {

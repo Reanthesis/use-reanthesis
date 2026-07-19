@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "reanthesis": {
+      "type": "http",
+      "url": "https://reanthesis.com/mcp",
+      "oauth_resource": "https://reanthesis.com/mcp"
+    }
+  }
+}
